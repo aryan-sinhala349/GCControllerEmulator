@@ -1,3 +1,6 @@
 [submodule "GCControllerEmulator/vendor/libusb"]
 	path = GCControllerEmulator/vendor/libusb
 	url = https://github.com/libusb/libusb-cmake
+[submodule "GCControllerEmulator/vendor/ViGEmClient"]
+	path = GCControllerEmulator/vendor/ViGEmClient
+	url = https://github.com/nefarius/ViGEmClient
