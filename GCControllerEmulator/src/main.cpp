@@ -1,7 +1,6 @@
-extern "C"
+#include "Base.h"
+
+GC_CONTROLLER_EMULATOR_PUBLIC int a()
 {
-    __declspec(dllexport) int a()
-    {
-        return 0;
-    }
+    return 0;
 }
