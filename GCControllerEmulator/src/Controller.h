@@ -7,7 +7,7 @@ namespace GCControllerEmulator
     using ControllerType = std::uint8_t;
     using ControllerButton = std::uint16_t;
     using ControllerAxis = std::uint8_t;
-    
+
     namespace Controller
     {
         namespace Type
