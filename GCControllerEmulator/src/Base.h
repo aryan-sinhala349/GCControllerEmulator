@@ -15,3 +15,15 @@
 #else
     #define GC_CONTROLLER_EMULATOR_PUBLIC GC_CONTROLLER_EMULATOR_IMPORT
 #endif
+
+#ifndef DEBUG
+#define DEBUG 0
+#endif
+
+#if DEBUG
+    #include <stdio.h>
+
+    #define PRINT_ERR_MSG(...) fprintf(stderr, __VA_ARGS__)
+#else
+    #define PRINT_ERR_MSG(...)
+#endif
